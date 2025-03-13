@@ -53,40 +53,41 @@ body{
 }
 
 .cabecalho{
-    background-color: aqua;
+    background-color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
+
 .link-menu{
     font-size: 18px;
     line-height: 23px;
-    font-weight: normal;
+    color: #1F1534;
+    font-weight: 400;
     text-decoration: none;
     margin-right: 50px;
-    color: #1F1534;
-    
+    opacity: 0.5;
+    line-height: 100%;
+    padding-top: 70px;
+
+}
+
+.ativo{
+    font-weight: bold;
+    color: #F8F9FA;
 }
 
 .logo{
     align-items: center;
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding-top: 56px;
     display: flex;
-    align-items: center;
 }
 
 .menu{
-    width: 639px;
+    
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
 }
 
-.parte-1{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}

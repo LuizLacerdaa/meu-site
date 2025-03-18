@@ -136,3 +136,59 @@ body{
     }
 }
 
+.nossos-servicos{
+    align-items: center;
+    padding-top: 192px;
+}
+
+.titulo-servico{
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subtitulo-servico{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #7D7987;
+    text-align: center;
+    padding-left: 325px;
+    padding-right: 323px;
+    margin-top: 61px;
+}
+
+.bloco-servico{
+    padding-top: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 240px;
+    padding-right: 240px;
+    justify-content: space-around;
+    
+}
+
+.nome-servico{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.descricao{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    
+}
+
+.servicos{
+    width: 350px;
+    height: 354px;
+    background-color: aqua;
+    margin-top: 37px;
+    border-radius: 20px;
+    text-align: left;
+    
+}

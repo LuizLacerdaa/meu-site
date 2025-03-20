@@ -47,6 +47,10 @@ table {
 
 /* ----------------------------------------- */
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: #FFFFFF;
     font-family: 'mulish';
@@ -57,6 +61,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 
@@ -91,15 +96,18 @@ body{
 
 .parte-1{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    margin-right: 175px;
-    margin-left: 180px;
-    
+    width: 1280px;
+    height: 693px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .inicio{
-    justify-content: center;
+    width: 517px;
+    height: 337px;
+    border: 1px solid red;
 }
 
 .titulo{
@@ -159,14 +167,27 @@ body{
     margin-top: 61px;
 }
 
+.lista-servicos{
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
 .bloco-servico{
     padding-top: 50px;
     flex-wrap: wrap;
     display: flex;
-    padding-left: 240px;
-    padding-right: 240px;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 58px;
+}
+
+.fundo-servicos{
+    background-image: url(imagem/fundo-servicos.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 40%;
 }
 
 .nome-servico{
@@ -180,15 +201,78 @@ body{
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
-    
+    align-items: center;
 }
 
 .servicos{
     width: 350px;
     height: 354px;
-    background-color: aqua;
-    margin-top: 37px;
+    padding-left: 37px;
+    padding-top: 54px;
+    padding-right: 45px;
+    background-color: #fff;
+    margin-bottom: 37px;
     border-radius: 20px;
-    text-align: left;
-    
+    box-shadow: #e5e9f69c 10px 40px 50px;
+}
+
+.botao-2{
+    border-radius: 55px;
+    border: 1.4px solid #458FF6 ;
+    width: 200px;
+    height: 56px;
+    justify-content: center;
+    display: flex;
+    margin-top: 69px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.botao-3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    text-decoration: none;
+    width: 98px;
+    height: 60px;
+ }
+
+ .parte-2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 186px;
+    border: 1px solid red;
+    gap: 137px;
+}
+
+.inicio-2{
+    width: 486px;
+    height: 388px;
+    border: 1px solid red;
+}
+
+.botao-a{
+    display: flex;
+}
+
+.botao-b{
+    height: 59px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    width: 200px;
+    margin-top: 45px;
+    border-radius: 55px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    &:hover{
+        cursor: pointer;
+    }
 }
